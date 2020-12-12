@@ -67,7 +67,3 @@ end
 gem 'bootstrap-sass', '3.3.7'
 gem 'rails-controller-testing'
 gem 'bcrypt',         '3.1.12'
-
-group :production do
-  gem 'rails_12factor'
-end
