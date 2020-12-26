@@ -63,6 +63,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'pg', '0.20.0'
+  gem 'fog', '1.42'
 end
 gem 'bootstrap-sass', '3.3.7'
 gem 'rails-controller-testing'
@@ -72,3 +73,5 @@ gem 'jquery-ui-rails'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'
